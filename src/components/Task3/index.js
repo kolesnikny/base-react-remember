@@ -1,4 +1,5 @@
 import React from 'react';
+import Bulb from './Bulb';
 
 const Task3 = () => {
     return (
@@ -11,7 +12,9 @@ const Task3 = () => {
                 приделать кнопку-переключатель. Можно стилизовать и сделать
                 toggle button, чтоб как выключатель прям)
             </p>
-            <div className="task-main"></div>
+            <div className="task-main">
+                <Bulb />
+            </div>
         </section>
     );
 };
