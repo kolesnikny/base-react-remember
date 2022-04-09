@@ -10,13 +10,15 @@ function App() {
     return (
         <div className="App">
             <header className="App-header">
-                <p>Hello Base React</p>
+                <p>The Base React</p>
             </header>
-            <Task1 />
-            <Task2 />
-            <Task3 />
-            <Task4 />
-            <Task5 />
+            <div className="task-container">
+                <Task1 />
+                <Task2 />
+                <Task3 />
+                <Task4 />
+                <Task5 />
+            </div>
         </div>
     );
 }

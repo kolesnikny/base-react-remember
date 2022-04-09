@@ -1,5 +1,10 @@
 .App {
-  text-align: center;
+  color: #282c34;
+  display:flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: stretch;
+  row-gap: 2em;
 }
 
 .App-header {
@@ -8,22 +13,40 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: calc(14px + 2vmin);
+  font-weight: 600;
   color: white;
 }
 
-.task-container{
 
+
+.task-container{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 1em;
 }
 
 .task-header{
-
-}
-
-.task-main{
-
+  margin:0;
+  font-size: calc(10px + 2vmin);
+  font-weight: 400;
 }
 
 .task-description{
-  
+  padding-left: 10vw;
+  padding-right: 10vw;
+  margin-top:0.5em;
 }
+
+.task-main{
+  position: relative;
+  border: 1px solid #282c34;
+  min-width: 50vw;
+  min-height: 20vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
