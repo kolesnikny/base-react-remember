@@ -34,16 +34,19 @@
 }
 
 .task-description{
+  width: 60vw;
   padding-left: 10vw;
   padding-right: 10vw;
   margin-top:0.5em;
 }
 
 .task-main{
+  background-color: #282c34;
+  color: #fff;
   position: relative;
   border: 1px solid #282c34;
-  min-width: 50vw;
-  min-height: 20vh;
+  min-width: 60vw;
+  min-height: 30vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
